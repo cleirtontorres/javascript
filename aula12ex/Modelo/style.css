@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cadetblue;
+    font: normal 1rem arial;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 6rem;
+    box-shadow: 2px 0px 8px #000000a6;
+
+}
+
+h1{
+    
+}
+
+section{
+    background-color: white;
+    margin: 20%;
+    height: 12rem;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 2px 8px #00000070 ;
+    color: #278da7;
+}
+
+footer{
+     text-align: center;
+     font-style: italic;
+}

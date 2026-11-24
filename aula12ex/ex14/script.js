@@ -1,0 +1,22 @@
+function carregar(){
+    let msg = document.getElementById('msg')
+    let img = document.getElementById('imagem')
+    let data = new Date()
+    let hora = data.getHours()
+    
+    
+    msg.innerHTML = `Agora são ${hora} horas`
+
+    if (hora >= 0 && hora < 12){
+        img.src = 'manhã.png'
+        document.body.style.background = '#54bd8c'
+    } else if (hora >= 12 && hora < 18){
+        img.src = 'tarde.png'
+        document.body.style.background = '#cfaf55'
+    } else {
+        img.src = 'noite.png'
+        document.body.style.background = '#3320a0'
+    }
+
+}
+
